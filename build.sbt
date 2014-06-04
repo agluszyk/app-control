@@ -2,7 +2,7 @@ import android.Keys._
 
 android.Plugin.androidBuild
 
-name := "hello-scaloid-sbt"
+name := "application-control"
 
 scalaVersion := "2.11.0"
 
