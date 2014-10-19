@@ -21,6 +21,9 @@ class MainActivity extends SActivity with SContext {
         SButton("Applications permissions").onClick(
           startActivity(SIntent[ApplicationsPermissions])
         )
+        SButton("Register").onClick(
+          startActivity(SIntent[Registration])
+        )
 
       }.<<.fill.>>
     }
